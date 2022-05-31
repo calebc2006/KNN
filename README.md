@@ -1,6 +1,6 @@
 # KNN
 
-knn.py is the actual algorithm
+KNN.py is the actual algorithm
 
-knn_data.py is where you insert your data
+KNN_data.py is where you insert your data
 
