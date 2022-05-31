@@ -1,5 +1,3 @@
-import matplotlib.pyplot as plt
-
 # Train
 x_ref = [[0.0, 3.3, 6.7, 10.0, 13.3, 16.7, 20.0],
          [0.0, 3.3, 6.7, 10.0, 13.3, 16.7, 20.0],
@@ -31,7 +29,7 @@ Train_data = []
 for i in range(4):
     for j in range(7):
         x = [AP1_raw_data[i][j], AP2_raw_data[i][j], AP3_raw_data[i][j], AP4_raw_data[i][j],
-             x_ref[i][j], y_ref[i][j]]
+             x_ref[i][j], y_ref[i][j]] 
         Train_data.append(x)
 
 # Test
