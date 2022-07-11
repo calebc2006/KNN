@@ -123,17 +123,5 @@ Test_data = [
     [LaptopSS, DesktopSS, xcoord, ycoord],
     [LaptopSS, DesktopSS, xcoord, ycoord],
     [LaptopSS, DesktopSS, xcoord, ycoord],
-    [LaptopSS, DesktopSS, xcoord, ycoord],
-    [LaptopSS, DesktopSS, xcoord, ycoord],
-    [LaptopSS, DesktopSS, xcoord, ycoord],
-    [LaptopSS, DesktopSS, xcoord, ycoord],
-    [LaptopSS, DesktopSS, xcoord, ycoord],
-    [LaptopSS, DesktopSS, xcoord, ycoord],
-    [LaptopSS, DesktopSS, xcoord, ycoord],
-    [LaptopSS, DesktopSS, xcoord, ycoord],
-    [LaptopSS, DesktopSS, xcoord, ycoord],
-    [LaptopSS, DesktopSS, xcoord, ycoord],
-    [LaptopSS, DesktopSS, xcoord, ycoord],
-    [LaptopSS, DesktopSS, xcoord, ycoord],
-    [LaptopSS, DesktopSS, xcoord, ycoord]
+    
 ]
