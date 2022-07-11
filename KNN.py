@@ -1,11 +1,11 @@
-# list of lists of [AP1, AP2, AP3, AP4, x, y]
+# list of lists of [AP1, AP2, x, y]
 from KNN_data import Test_data, Train_data
 import numpy as np
 import math
 import pandas as pd
 import matplotlib.pyplot as plt
 from statistics import stdev
-NUM_AP = 4
+NUM_AP = 2
 ORDER = 2
 
 
@@ -39,7 +39,7 @@ def get_prediction(test_case, k):
     for i in range(k):
         dist = euclidean_distance(test_case, neighbors[i][0:NUM_AP])
         if dist == 0:
-            inverse_dev.append(1000000000)
+            inverse_dev.append(1e9)
         else:
             inverse_dev.append(float(1/dist**ORDER))
         total += inverse_dev[i]
